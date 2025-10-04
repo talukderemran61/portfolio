@@ -1,6 +1,6 @@
 # Bandit — Level 0 → Level 1
 **Challenge name:** SSH login basics  
-**Date:** 2025-10-XX  
+**Date:** 2025-10-04  
 **Time spent:** ~5 minutes  
 **Difficulty:** Intro
 
@@ -34,7 +34,7 @@ Once logged in, you’ll receive instructions for the next level.
    ssh bandit0@bandit.labs.overthewire.org -p 2220
 
 -   **bandit0@...** → means log in as the user bandit0.
--   **-p 2220** → specifies port 2220 since it’s not the default.
+-   **-p 2220** → specifies port 2220 since it’s not the default. [ssh default port is 22]
 
 3. **Authenticate**
    When prompted, enter the given password 'bandit0'.
@@ -71,6 +71,13 @@ Once logged in, you’ll receive instructions for the next level.
 
    Successfully logged in as bandit0.
    Now we are ready to attempt Level 1.
+
+---
+
+## Screenshots
+
+   ![ssh command used to login](/assets/images/bandit-level-0_a.png "ssh login to a remote machine")
+   ![Successfully logged in as user bandit0](/assets/images/bandit-level-0_b.png "logged in as bandit0")
 
 ---
 
