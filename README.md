@@ -3,11 +3,11 @@
 Full-stack student building web apps and learning web security.
 
 ## Projects
-- **Drum kit** — Small drum kit web app. `/projects/drum_kit/`  
+- **Drum kit** — Small drum kit web app. `projects/drum_kit/`  
 - **Capstone (in progress)** — Full-stack CRUD app (Node/Express/Mongo + React).
 
 ## Writeups
-- `/writeups/bandit/level-0.md` — OverTheWire Bandit Wargame (Level 0).  
+- `writeups/bandit/level-0.md` — OverTheWire Bandit Wargame (Level 0).  
 
 ## Progress
 See weekly log: `progress.md`.
@@ -20,4 +20,4 @@ See weekly log: `progress.md`.
 ---
 
 *(Quick links)*  
-- Live site: `https://YOUR_USERNAME.github.io/portfolio/`
+- Live site: `https://talukderemran61.github.io/portfolio/`
