@@ -1,4 +1,4 @@
-# Bandit — Level 0 → Level 1
+# Bandit — Level 0
 **Challenge name:** SSH login basics  
 **Date:** 2025-10-04  
 **Time spent:** ~5 minutes  
