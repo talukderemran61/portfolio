@@ -3,12 +3,11 @@
 Full-stack student building web apps and learning web security.
 
 ## Projects
-- **jQuery Todo** — Small dynamic todo app. `projects/todo/`  
+- **Drum kit** — Small drum kit web app. `/projects/drum_kit/`  
 - **Capstone (in progress)** — Full-stack CRUD app (Node/Express/Mongo + React).
 
 ## Writeups
-- `writeups/bin-0x0C.md` — Binary exploitation reproduction (GDB screenshots).  
-- `writeups/thm-command-line.md` — TryHackMe Command Line notes.
+- `/writeups/bandit/level-0.md` — OverTheWire Bandit Wargame (Level 0).  
 
 ## Progress
 See weekly log: `progress.md`.
