@@ -117,7 +117,6 @@ body {
 @media only screen and (max-width: 600px) {
   .main-container {
     margin: 5vh auto;
-    background-color: #FEF2BF;
   }
 
   #level-title {
@@ -141,8 +140,6 @@ body {
 
   .container{
     margin: auto;
-    margin-left: 20px;
-    margin-right: 20px;
   }
 
   .hidden {

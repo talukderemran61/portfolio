@@ -110,7 +110,7 @@ function clickAnimation(numberbtn) {
 }
 
 // handle player clicks
-$(".btn").on("click touchstart", function (event) {
+$(".btn").on("pointerdown", function (event) {
     if (!acceptingInput) return;
 
     let clickedBtnNum = Number(event.target.getAttribute("position"));
