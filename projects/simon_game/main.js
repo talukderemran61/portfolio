@@ -21,7 +21,7 @@ $(document).on("keydown", function (event) {
     }
 })
 
-$(".mobile-btn").on("click", function (event) {
+$(".mobile-btn").on("pointerdown", function (event) {
     console.log(event.target.getAttribute("type"));
     if (event.target.getAttribute("type") === "play" && !started) {
         console.log("Game on");
