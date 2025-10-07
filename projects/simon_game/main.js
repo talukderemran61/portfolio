@@ -21,6 +21,23 @@ $(document).on("keydown", function (event) {
     }
 })
 
+$(".mobile-btn").on("click", function (event) {
+    console.log(event.target.getAttribute("type"));
+    if (event.target.getAttribute("type") === "play" && !started) {
+        console.log("Game on");
+        $(".mobile-btn").addClass("hidden");
+        gameStartAnimation();
+        displayCurrentScore(score);
+        displayHighestScore(score);
+        getSavedHighScore();
+        started = true;
+
+        setTimeout(() => {
+            nextRound();
+        }, 6000);
+    }
+})
+
 function gameStartAnimation() {
     $(".animate-container").addClass("game-on");
     $(".animate-container").removeClass("game-over");
@@ -131,6 +148,8 @@ function checkAnswer(currentNumIndex) {
 function gameOverAnimation() {
     $(".animate-container").removeClass("game-on");
     $(".animate-container").addClass("game-over");
+
+    setTimeout(() => $(".mobile-btn").removeClass("hidden"), 2000); // reappear mobile play btn
 }
 
 function displayCurrentScore(score) {
