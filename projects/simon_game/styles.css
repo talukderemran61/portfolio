@@ -47,7 +47,7 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 5rem;
+  font-size: 10rem;
   z-index: 3;
 }
 
@@ -109,14 +109,14 @@ body {
   display: none;
 }
 
-.mobile-btn {
+.mobile-btn, #mobile-title {
   display: none;
 }
 
 /* Media query for mobile */
 @media only screen and (max-width: 600px) {
-  body {
-    margin-top: 15vh;
+  .main-container {
+    margin: 5vh auto;
   }
 
   #level-title {
@@ -124,6 +124,7 @@ body {
   }
 
   #mobile-title {
+    display: block;
     font-size: 2rem;
   }
 
@@ -135,6 +136,10 @@ body {
     border: 2px solid #FEF2BF;
     margin-top: 30px;
     padding: 10px 15px;
+  }
+
+  .count-start{
+    font-size: 20vw;
   }
 
   .hidden {
