@@ -117,6 +117,7 @@ body {
 @media only screen and (max-width: 600px) {
   .main-container {
     margin: 5vh auto;
+    background-color: #FEF2BF;
   }
 
   #level-title {

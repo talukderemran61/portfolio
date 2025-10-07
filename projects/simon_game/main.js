@@ -21,7 +21,14 @@ $(document).on("keydown", function (event) {
     }
 })
 
+let lastTap = 0;
+
 $(".mobile-btn").on("pointerdown", function (event) {
+    const currentTime = new Date().getTime();
+    const tapLength = currentTime - lastTap;
+    if (tapLength < 500 && tapLength > 0) return; // ignore if double
+    lastTap = currentTime;
+
     console.log(event.target.getAttribute("type"));
     if (event.target.getAttribute("type") === "play" && !started) {
         console.log("Game on");
