@@ -79,11 +79,6 @@ body {
   border-radius: 20%;
 }
 
-/* .game-over {
-  background-color: red;
-  opacity: 0.8;
-} */
-
 .red {
   background-color: red;
 }
@@ -107,4 +102,17 @@ body {
 
 .hidden {
   display: none;
+}
+
+/* Media query for mobile */
+@media (max-width: 600px) {
+  .main-container{
+    margin-top: 5rem;
+  }
+  .animate-container {
+    width: 80vw;
+    height: 80vw; /* square */
+    margin: auto;
+    position: relative;
+  }
 }
