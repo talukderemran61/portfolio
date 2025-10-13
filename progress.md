@@ -38,3 +38,17 @@ Each week I add:
 - **Time spent:** ~25 hours
 
 ---
+
+### Week: 2025-10-05 → 2025-10-12
+- **Angela Yu's Web dev**
+  - Finished: Section 20 - The Simon game project, and Section 21 — Unix Command line, section 22: Intro to backend web dev.
+  - Artifacts: `projects/simon_game/`
+  - Next: Section 23- Node.js
+- **TryHackMe**
+  - Finished: Networking Concepts, Networking Essentials, Networking Core Protocols, Networking Secure Protocols, Wireshark: the basics, Tcpdump: the basics Rooms from Networking Module.
+  - Next: Networking module - Nmap: the basics, Cryptography module- Crypto Basics, Pub key crypto basics, Hashing basics, John the ripper: the basics.
+- **OverTheWire - Bandit**
+  - Finished: Wargame bandit level 0 -> 1.
+  - Artifacts: `writeups/bandit/level-0-1.md`
+  - Next: Level 1 -> 2
+- **Time spent:** ~19 hours

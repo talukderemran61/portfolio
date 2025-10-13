@@ -43,7 +43,6 @@ Once logged in, you’ll receive instructions for the next level.
 ---
 
 ## Commands & Outputs
-
    ```bash
    ssh bandit0@bandit.labs.overthewire.org -p 2220
    Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
@@ -68,21 +67,24 @@ Once logged in, you’ll receive instructions for the next level.
 ---
 
 ## Flag / Result
-
    Successfully logged in as bandit0.
    Now we are ready to attempt Level 1.
 
 ---
 
 ## Screenshots
-
    ![ssh command used to login](/assets/images/bandit-level-0_a.png "ssh login to a remote machine")
    ![Successfully logged in as user bandit0](/assets/images/bandit-level-0_b.png "logged in as bandit0")
 
 ---
 
-## References
+## Lesson Learned
+- Establish a secure connection to a remote machine through `ssh`.
+- certain flags can be combined with a command to trigger specific option (e.g., flag `-p` used to overwrite the default port number for ssh).
 
+---
+
+## References
 - [ssh - Linux manual page](https://man7.org/linux/man-pages/man1/ssh.1.html)
 - [Secure Shell (SSH) on Wikipedia](https://en.wikipedia.org/wiki/Secure_Shell)
 - [How to use SSH with a non-standard port on It’s FOSS](https://itsfoss.com/ssh-to-port/)
