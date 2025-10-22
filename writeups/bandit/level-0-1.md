@@ -61,10 +61,10 @@ ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
 ---
 
 ## Flags / result
-- password: ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
+- password: `ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If`  
 Use it to login:
 ```bash
-ssh bandit0@bandit.labs.overthewire.org -p 2220
+ssh bandit1@bandit.labs.overthewire.org -p 2220
 ```
 
 ---
