@@ -1,4 +1,4 @@
-# Bandit - level 1 -> 2
+# Bandit - level 3 -> 4
 **Challenge name:** hidden file in `inhere` (`...Hiding-From-You`)
 **Date:** 23 Oct 2025
 **Time spent:** ~5 mins
@@ -21,19 +21,19 @@ The password for the next level is stored in a hidden file inside the `inhere` d
     ```bash
     ssh bandit3@bandit.labs.overthewire.org -p 2220
 
-2. **List files** and change into the `inhere` directory::
+2. **List files** and change into the `inhere` directory:
     ```bash
     ls
     cd inhere
     ```
 
-3.  **Show hidden files** — regular `ls` ignores files that start with a dot. Use `-a` or `-la` to reveal dotfiles::
+3.  **Show hidden files** — regular `ls` ignores files that start with a dot. Use `-a` or `-la` to reveal dotfiles:
     ```bash
     ls -la
     ```
     You should see a hidden file named `...Hiding-From-You`.
 
-4. **Read the hidden file**.
+4. **Read the hidden file**:
     ```bash
     cat "./...Hiding-From-You"
     ```
