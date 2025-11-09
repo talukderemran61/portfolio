@@ -1,8 +1,8 @@
-# Bandit — Level 0 → 1
+# Bandit — Level 0 → 1  
 **Challenge name:** navigate and read file  
-**Date:** 2025-10-09 
-**Time spent:** ~5 minutes
-**Difficulty:** Beginner
+**Date:** 2025-10-09  
+**Time spent:** ~5 minutes  
+**Difficulty:** Beginner  
 
 ---
 

@@ -1,8 +1,8 @@
-# Bandit - level 2 -> 3
-**Challenge name:** spaces in this filename
-**Date:** 22 Oct 2025
-**Time spent:** ~5 mins
-**Difficulty:** Beginner
+# Bandit - level 2 -> 3  
+**Challenge name:** spaces in this filename  
+**Date:** 22 Oct 2025  
+**Time spent:** ~5 mins  
+**Difficulty:** Beginner  
 
 ---
 

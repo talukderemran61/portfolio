@@ -1,8 +1,8 @@
-# Bandit - level 6 -> 7
-**Challenge name:** find file by owner/group and size
-**Date:** 27 Oct 2025
-**Time spent:** ~5-15 mins
-**Difficulty:** Beginner / Intermediate
+# Bandit - level 6 -> 7  
+**Challenge name:** find file by owner/group and size  
+**Date:** 27 Oct 2025  
+**Time spent:** ~5-15 mins  
+**Difficulty:** Beginner / Intermediate  
 
 ---
 

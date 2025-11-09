@@ -1,8 +1,8 @@
-# Bandit - level 1 -> 2
-**Challenge name:** read file starts with special character
-**Date:** 22 Oct 2025
-**Time spent:** ~5 mins
-**Difficulty:** Beginner
+# Bandit - level 1 -> 2  
+**Challenge name:** read file starts with special character  
+**Date:** 22 Oct 2025  
+**Time spent:** ~5 mins  
+**Difficulty:** Beginner  
 
 ---
 

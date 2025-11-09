@@ -19,7 +19,8 @@ Each level explores a new concept in Linux basics, file handling, permissions, n
 | Level 6 → 7   | Done      | [Writeup](level-6-7.md)   |  
 | Level 7 → 8   | Done      | [Writeup](level-7-8.md)   |  
 | Level 8 → 9   | Done      | [Writeup](level-8-9.md)   |  
-| Level 10 → 11 | Pending   | —                         |  
+| Level 9 → 10  | Done      | [Writeup](level-9-10.md)  |  
+| Level 10 → 11 | Pending   | [Writeup](level-10-11.md) |  
 | Level 11 → 12 | Pending   | —                         |  
 | Level 12 → 13 | Pending   | —                         |  
 | Level 13 → 14 | Pending   | —                         |  
@@ -44,11 +45,20 @@ Each writeup follows a consistent format:
 ##  Folder Structure
 writeups/  
 └─ bandit/   
-   ├─ README.md # Index of all Bandit writeups (this file)  
-   ├─ level-0.md   
-   ├─ level-0-1.md  
-   ├─ level-1-2.md  
-   └─ ...  
+&nbsp;&nbsp;&nbsp;&nbsp;├─ README.md # Index of all Bandit writeups (this file)  
+&nbsp;&nbsp;&nbsp;&nbsp;├─ level-0.md   
+&nbsp;&nbsp;&nbsp;&nbsp;├─ level-0-1.md  
+&nbsp;&nbsp;&nbsp;&nbsp;├─ level-1-2.md  
+&nbsp;&nbsp;&nbsp;&nbsp;├─ level-2-3.md  
+&nbsp;&nbsp;&nbsp;&nbsp;├─ level-3-4.md  
+&nbsp;&nbsp;&nbsp;&nbsp;├─ level-4-5.md  
+&nbsp;&nbsp;&nbsp;&nbsp;├─ level-5-6.md  
+&nbsp;&nbsp;&nbsp;&nbsp;├─ level-6-7.md  
+&nbsp;&nbsp;&nbsp;&nbsp;├─ level-7-8.md  
+&nbsp;&nbsp;&nbsp;&nbsp;├─ level-8-9.md  
+&nbsp;&nbsp;&nbsp;&nbsp;├─ level-9-10.md  
+&nbsp;&nbsp;&nbsp;&nbsp;├─ level-10-11.md  
+&nbsp;&nbsp;&nbsp;&nbsp;└─ ...  
 
 ---
 

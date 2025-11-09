@@ -1,8 +1,8 @@
-# Bandit - level 4 -> 5
-**Challenge name:** human-readable file
-**Date:** 24 Oct 2025
-**Time spent:** ~5 mins
-**Difficulty:** Beginner
+# Bandit - level 4 -> 5  
+**Challenge name:** human-readable file  
+**Date:** 24 Oct 2025  
+**Time spent:** ~5 mins  
+**Difficulty:** Beginner  
 
 ---
 

@@ -1,8 +1,8 @@
-# Bandit - level 3 -> 4
-**Challenge name:** hidden file in `inhere` (`...Hiding-From-You`)
-**Date:** 23 Oct 2025
-**Time spent:** ~5 mins
-**Difficulty:** Beginner
+# Bandit - level 3 -> 4  
+**Challenge name:** hidden file in `inhere` (`...Hiding-From-You`)  
+**Date:** 23 Oct 2025  
+**Time spent:** ~5 mins  
+**Difficulty:** Beginner  
 
 ---
 

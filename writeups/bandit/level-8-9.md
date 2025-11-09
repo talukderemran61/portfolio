@@ -1,8 +1,8 @@
-# Bandit - level 8 -> 9
-**Challenge name:** find unique line of text
-**Date:** 09 Nov 2025
-**Time spent:** ~10 mins
-**Difficulty:** Beginner
+# Bandit - level 8 -> 9  
+**Challenge name:** find unique line of text  
+**Date:** 09 Nov 2025  
+**Time spent:** ~10 mins  
+**Difficulty:** Beginner  
 
 ---
 
