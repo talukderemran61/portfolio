@@ -61,11 +61,11 @@ The password for the next level is stored in the file `data.txt` and is the only
 
 ## Commands & outputs
 ```bash
-$ ssh bandit7@bandit.labs.overthewire.org -p 2220 
+$ ssh bandit8@bandit.labs.overthewire.org -p 2220 
 ... (banner) ... 
-bandit7@bandit:~$ ls 
+bandit8@bandit:~$ ls 
 data.txt 
-bandit7@bandit:~$ uniq data.txt
+bandit8@bandit:~$ uniq data.txt
     1 UD0JGdEzC9MvLEFryrg13oTd5Hb07iWd 
     1 7GmAoWty7FVrx69vVdHsWI3K7bhXB7ck 
     1 XFZ2qtQ5m9FCzyje1e5fCvm2F1TeU5pJ 
