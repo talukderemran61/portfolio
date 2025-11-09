@@ -7,15 +7,23 @@ Each level explores a new concept in Linux basics, file handling, permissions, n
 
 ##  Progress Tracker
 
-| Level Range   | Status    | Notes                    |  
-|---------------|-----------|--------------------------|  
-| Level 0       | Done      | [Writeup](level-0.md)    |  
-| Level 0 → 1   | Done      | [Writeup](level-0-1.md)  |  
-| Level 1 → 2   | Done      | [Writeup](level-1-2.md)  |  
-| Level 2 → 3   | Done      | [Writeup](level-2-3.md)  |  
-| Level 3 → 4   | Pending   | —                        |  
-| Level 4 → 5   | Pending   | —                        |  
-| ...           | ...       | ...                      |  
+| Level Range   | Status    | Writeups                  |  
+|---------------|-----------|---------------------------|  
+| Level 0       | Done      | [Writeup](level-0.md)     |  
+| Level 0 → 1   | Done      | [Writeup](level-0-1.md)   |  
+| Level 1 → 2   | Done      | [Writeup](level-1-2.md)   |  
+| Level 2 → 3   | Done      | [Writeup](level-2-3.md)   |  
+| Level 3 → 4   | Done      | [Writeup](level-3-4.md)   |  
+| Level 4 → 5   | Done      | [Writeup](level-4-5.md)   |  
+| Level 5 → 6   | Done      | [Writeup](level-5-6.md)   |  
+| Level 6 → 7   | Done      | [Writeup](level-6-7.md)   |  
+| Level 7 → 8   | Done      | [Writeup](level-7-8.md)   |  
+| Level 8 → 9   | Done      | [Writeup](level-8-9.md)   |  
+| Level 10 → 11 | Pending   | —                         |  
+| Level 11 → 12 | Pending   | —                         |  
+| Level 12 → 13 | Pending   | —                         |  
+| Level 13 → 14 | Pending   | —                         |  
+| ...           | ...       | ...                       |  
 
 ---
 
