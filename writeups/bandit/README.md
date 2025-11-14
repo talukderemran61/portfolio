@@ -20,9 +20,9 @@ Each level explores a new concept in Linux basics, file handling, permissions, n
 | Level 7 → 8   | Done      | [Writeup](level-7-8.md)   |  
 | Level 8 → 9   | Done      | [Writeup](level-8-9.md)   |  
 | Level 9 → 10  | Done      | [Writeup](level-9-10.md)  |  
-| Level 10 → 11 | Pending   | [Writeup](level-10-11.md) |  
-| Level 11 → 12 | Pending   | —                         |  
-| Level 12 → 13 | Pending   | —                         |  
+| Level 10 → 11 | Done      | [Writeup](level-10-11.md) |  
+| Level 11 → 12 | Done      | [Writeup](level-11-12.md) |  
+| Level 12 → 13 | Done      | [Writeup](level-12-13.md) |  
 | Level 13 → 14 | Pending   | —                         |  
 | ...           | ...       | ...                       |  
 

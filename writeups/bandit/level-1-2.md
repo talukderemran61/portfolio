@@ -49,17 +49,20 @@ Welcome to OverTheWire!
 bandit1@bandit:~$ ls
 -
 bandit1@bandit:~$ cat ./-
-263JGJPfgU6LtdEvgfWU1XP5yac29mFx
+<password>
 ```
 
 ---
 
 ## Flags / result
-- password: `263JGJPfgU6LtdEvgfWU1XP5yac29mFx`  
+- password: `<password>`  
 Use it to login:
 ```bash
 ssh bandit2@bandit.labs.overthewire.org -p 2220
 ```
+## Password Notice
+For security and in accordance with OverTheWire rules, the actual password for the next level is **not included** in this write‑up.  
+Use the steps shown above to retrieve it in your own environment.
 
 ---
 
@@ -69,5 +72,10 @@ ssh bandit2@bandit.labs.overthewire.org -p 2220
 ---
 
 ## References
+- [OverTheWire — Bandit level descriptions and hints](https://overthewire.org/wargames/bandit/bandit2.html)
+
+---
+
+## Reading materials
 - [Google Search for “dashed filename”](https://www.google.com/search?q=dashed+filename)
 - [Advanced Bash-scripting Guide - Chapter 3 - Special Characters](https://linux.die.net/abs-guide/special-chars.html)

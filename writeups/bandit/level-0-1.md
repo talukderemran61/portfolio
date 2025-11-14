@@ -55,19 +55,27 @@ bandit0
 bandit0@bandit:~$ ls
 readme
 bandit0@bandit:~$ cat readme
-ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
+<password>
 ```
 
 ---
 
 ## Flags / result
-- password: `ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If`  
+- password: `<password>`  
 Use it to login:
 ```bash
 ssh bandit1@bandit.labs.overthewire.org -p 2220
 ```
+## Password Notice
+For security and in accordance with OverTheWire rules, the actual password for the next level is **not included** in this write‑up.  
+Use the steps shown above to retrieve it in your own environment.
 
 ---
 
 ## Lesson learned
 - Basic navigation: `cd`, `ls` and `cat` are often sufficient for simple file-retrieval tasks.
+
+---
+
+## References
+- [OverTheWire — Bandit level descriptions and hints](https://overthewire.org/wargames/bandit/bandit1.html)

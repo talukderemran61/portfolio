@@ -56,17 +56,20 @@ drwxr-xr-x  2 bandit4 bandit4 4096 Oct 23 00:00 .
 drwxr-xr-x 11 bandit3 bandit3 4096 Oct 23 00:00 ..
 -rw-r--r--  1 bandit4 bandit4   33 Oct 23 00:00 ...Hiding-From-You
 bandit3@bandit:~/inhere$ cat "./...Hiding-From-You"
-2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
+<password>
 ```
 
 ---
 
 ## Flags / result
-- password: `2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ`  
+- password: `<password>`  
     Use it to login:
 ```bash
 ssh bandit4@bandit.labs.overthewire.org -p 2220
 ```
+## Password Notice
+For security and in accordance with OverTheWire rules, the actual password for the next level is **not included** in this write‑up.  
+Use the steps shown above to retrieve it in your own environment.
 
 ---
 
@@ -78,7 +81,7 @@ ssh bandit4@bandit.labs.overthewire.org -p 2220
 ---
 
 ## References
-- OverTheWire — Bandit level pages (for challenge descriptions and hints)
+- [OverTheWire — Bandit level descriptions and hints](https://overthewire.org/wargames/bandit/bandit4.html)
 
 ---
 

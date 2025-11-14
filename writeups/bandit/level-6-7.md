@@ -56,17 +56,20 @@ bandit6@bandit:/$ ls -l /var/lib/dpkg/info/bandit7.password
 -rw-r----- 1 bandit7 bandit6 33 Oct 14 09:26 /var/lib/dpkg/info/bandit7.password
 
 bandit6@bandit:/$ cat /var/lib/dpkg/info/bandit7.password
-morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
+<password>
 ```
 
 ---
 
 ## Flags / result
-- password: `morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj`  
+- password: `<password>`  
     Use it to login:
 ```bash
 ssh bandit7@bandit.labs.overthewire.org -p 2220
 ```
+## Password Notice
+For security and in accordance with OverTheWire rules, the actual password for the next level is **not included** in this write‑up.  
+Use the steps shown above to retrieve it in your own environment.
 
 ---
 
@@ -84,7 +87,7 @@ ssh bandit7@bandit.labs.overthewire.org -p 2220
 ---
 
 ## References
-- OverTheWire — Bandit level descriptions and hints
+- [OverTheWire — Bandit level descriptions and hints](https://overthewire.org/wargames/bandit/bandit7.html)
 
 ---
 

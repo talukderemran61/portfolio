@@ -76,7 +76,7 @@ nS=F
 M=Sl
 =LGT
 y =1
-========== FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
+========== <password>
 '+Y=+
 bandit9@bandit:~$
 ```
@@ -84,11 +84,14 @@ bandit9@bandit:~$
 ---
 
 ## Flags / result
-- password: `FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey`  
+- password: `<password>`  
     Use it to login:
 ```bash
 ssh bandit10@bandit.labs.overthewire.org -p 2220
 ```
+## Password Notice
+For security and in accordance with OverTheWire rules, the actual password for the next level is **not included** in this write‑up.  
+Use the steps shown above to retrieve it in your own environment.
 
 ---
 
@@ -97,6 +100,11 @@ ssh bandit10@bandit.labs.overthewire.org -p 2220
 - Use `grep` to narrow down the `strings` output when the password is hinted to be next to a specific pattern (here,`=`).
 - This level demonstrates the common pattern in wargames: inspect type → extract readable text from binary → filter for the hint.
 > Pro tip: The man page is your best friend — if you don’t know what a tool does, man <tool> will often point you straight to the solution.
+
+---
+
+## References
+- [OverTheWire — Bandit level descriptions and hints](https://overthewire.org/wargames/bandit/bandit10.html)
 
 ---
 

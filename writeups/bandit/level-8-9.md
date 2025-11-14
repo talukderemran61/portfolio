@@ -79,24 +79,27 @@ bandit8@bandit:~$ sort data.txt | uniq -c
     10 2E01uUQMBOGXxVooSFO0uezEWAfActMH 
     10 2UbrvLqP3s5Hpz8a44FAW3tYHr4mO9ic 
     10 3yaj6VGAygiJGYZo04LXXDVTkJyDLMlE 
-    1 4CKMh1JI91bUIZZPXDqGanal4xvAg0JM 
+    1 <password> 
     10 7GmAoWty7FVrx69vVdHsWI3K7bhXB7ck
     ...
 bandit8@bandit:~$ sort data.txt | uniq -c | grep '1 ' 
-    1 4CKMh1JI91bUIZZPXDqGanal4xvAg0JM 
+    1 <password> 
 bandit8@bandit:~$ sort data.txt | uniq -u 
-    4CKMh1JI91bUIZZPXDqGanal4xvAg0JM 
+    <password> 
 bandit8@bandit:~$
 ```
 
 ---
 
 ## Flags / result
-- password: `4CKMh1JI91bUIZZPXDqGanal4xvAg0JM`  
+- password: `<password>`  
     Use it to login:
 ```bash
 ssh bandit9@bandit.labs.overthewire.org -p 2220
 ```
+## Password Notice
+For security and in accordance with OverTheWire rules, the actual password for the next level is **not included** in this write‑up.  
+Use the steps shown above to retrieve it in your own environment.
 
 ---
 
@@ -105,6 +108,11 @@ ssh bandit9@bandit.labs.overthewire.org -p 2220
 Each command does one thing well, and together they can solve complex problems efficiently.
 - `-c` flag used with `uniq` to display the count of occurance of a line. And `-u` to get unique line only.
 - single/double quotation used in `grep '1 '` to filter lines with exactly space after 1, which is our intention. (Try it out with and without quotation to see the difference yourself)
+
+---
+
+## References
+- [OverTheWire — Bandit level descriptions and hints](https://overthewire.org/wargames/bandit/bandit9.html)
 
 ---
 

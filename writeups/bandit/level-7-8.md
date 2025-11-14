@@ -60,7 +60,7 @@ $ ssh bandit7@bandit.labs.overthewire.org -p 2220
 bandit7@bandit:~$ ls 
 data.txt 
 bandit7@bandit:~$ cat data.txt | grep "millionth" 
-millionth       dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc 
+millionth       <password> 
 bandit7@bandit:~$ file data.txt 
 data.txt: Unicode text, UTF-8 text
 ```
@@ -68,11 +68,14 @@ data.txt: Unicode text, UTF-8 text
 ---
 
 ## Flags / result
-- password: `dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc`  
+- password: `<password>`  
     Use it to login:
 ```bash
 ssh bandit8@bandit.labs.overthewire.org -p 2220
 ```
+## Password Notice
+For security and in accordance with OverTheWire rules, the actual password for the next level is **not included** in this write‑up.  
+Use the steps shown above to retrieve it in your own environment.
 
 ---
 
@@ -84,7 +87,7 @@ ssh bandit8@bandit.labs.overthewire.org -p 2220
 ---
 
 ## References
-- OverTheWire — Bandit level descriptions and hints
+- [OverTheWire — Bandit level descriptions and hints](https://overthewire.org/wargames/bandit/bandit8.html)
 
 ---
 

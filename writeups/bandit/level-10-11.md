@@ -50,23 +50,32 @@ data.txt: ASCII text
 bandit10@bandit:~$ cat data.txt
 VGhlIHBhc3N3b3JkIGlzIGR0UjE3M2ZaS2IwUlJzREZTR3NnMlJXbnBOVmozcVJyCg==
 bandit10@bandit:~$ base64 data.txt -d
-The password is dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr
+The password is <password>
 ```
 
 ---
 
 ## Flags / result
-- password: `dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr`  
+- password: `<password>`  
     Use it to login:
 ```bash
 ssh bandit11@bandit.labs.overthewire.org -p 2220
 ```
+## Password Notice
+For security and in accordance with OverTheWire rules, the actual password for the next level is **not included** in this write‑up.  
+Use the steps shown above to retrieve it in your own environment.
 
 ---
 
 ## Lesson learned
 - When `file` reports **data** or you see unreadable ASCII that looks patterned, try `strings` or `xxd` to inspect - and consider common encodings like Base64.
 - `base64 -d` quickly decodes Base64-encoded text; use `man base64` if unsure about flags.
+
+---
+
+## References
+- [OverTheWire — Bandit level descriptions and hints](https://overthewire.org/wargames/bandit/bandit11.html)
+
 ---
 
 ## Reading materials

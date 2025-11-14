@@ -61,17 +61,20 @@ maybehere01  maybehere03  maybehere05  maybehere07  maybehere09  maybehere11  ma
 bandit5@bandit:~/inhere$ find . -type f -size 1033c
 ./maybehere07/.file2
 bandit5@bandit:~/inhere$ cat ./maybehere07/.file2
-HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
+<password>
 ```
 
 ---
 
 ## Flags / result
-- password: `HWasnPhtq9AVKe0dmk45nxy20cvUa6EG`  
+- password: `<password>`  
     Use it to login:
 ```bash
 ssh bandit6@bandit.labs.overthewire.org -p 2220
 ```
+## Password Notice
+For security and in accordance with OverTheWire rules, the actual password for the next level is **not included** in this write‑up.  
+Use the steps shown above to retrieve it in your own environment.
 
 ---
 
@@ -87,10 +90,10 @@ ssh bandit6@bandit.labs.overthewire.org -p 2220
 ---
 
 ## References
-- `find` manual / `man find` (look for `-size` option)
-- OverTheWire — Bandit level descriptions and hints
+- [OverTheWire — Bandit level descriptions and hints](https://overthewire.org/wargames/bandit/bandit6.html)
 
 ---
 
 ## Reading materials
+- `find` manual / `man find` (look for `-size` option)
 - Google search for “find size in bytes -size c”

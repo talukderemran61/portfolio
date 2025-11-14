@@ -67,6 +67,7 @@ Once logged in, you’ll receive instructions for the next level.
 ---
 
 ## Flag / Result
+   password: `bandit0`
    Successfully logged in as bandit0.
    Now we are ready to attempt Level 1.
 
@@ -85,6 +86,11 @@ Once logged in, you’ll receive instructions for the next level.
 ---
 
 ## References
+- [OverTheWire — Bandit level descriptions and hints](https://overthewire.org/wargames/bandit/bandit0.html)
+
+---
+
+## Reading materials
 - [ssh - Linux manual page](https://man7.org/linux/man-pages/man1/ssh.1.html)
 - [Secure Shell (SSH) on Wikipedia](https://en.wikipedia.org/wiki/Secure_Shell)
 - [How to use SSH with a non-standard port on It’s FOSS](https://itsfoss.com/ssh-to-port/)

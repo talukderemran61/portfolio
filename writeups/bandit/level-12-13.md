@@ -164,7 +164,7 @@ The password for the next level is stored in the file `data.txt`, which is a hex
     bandit12@bandit:/tmp/tmp.9JazNDI75A$ file data8.bin
     data8.bin: ASCII text
     bandit12@bandit:/tmp/tmp.9JazNDI75A$ cat data8.bin
-    The password is FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn
+    The password is <password>
     ```
     Hooray! Finally the never-ending decompression and extraction ended.
 
@@ -174,7 +174,7 @@ The password for the next level is stored in the file `data.txt`, which is a hex
 
 ## Commands & outputs
 ```bash
-$ ssh bandit13@bandit.labs.overthewire.org -p 2220 
+$ ssh bandit12@bandit.labs.overthewire.org -p 2220 
 ... (banner) ... 
 bandit12@bandit:~$ ls
 data.txt
@@ -290,17 +290,21 @@ data6.bin: bzip2 compressed data, block size = 900k         # decompress the fil
     bandit12@bandit:/tmp/tmp.9JazNDI75A$ file data8.bin
     data8.bin: ASCII text
     bandit12@bandit:/tmp/tmp.9JazNDI75A$ cat data8.bin
-    The password is FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn        # The Password!
+    The password is <password>        # The Password!
 ```
 
 ---
 
 ## Flags / result
-- password: `FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn`  
+- password: `<password>`  
     Use it to login:
 ```bash
 ssh bandit13@bandit.labs.overthewire.org -p 2220
 ```
+
+## Password Notice
+For security and in accordance with OverTheWire rules, the actual password for the next level is **not included** in this write‑up.  
+Use the steps shown above to retrieve it in your own environment.
 
 ---
 
@@ -310,6 +314,11 @@ ssh bandit13@bandit.labs.overthewire.org -p 2220
 - **Reading man pages is essential:** Instead of memorizing every command, you practiced using `man <command>` to understand tools, flags, and behavior - this habit is what real Linux users rely on.
 - **Practical understanding of `/tmp` permissions:** Discovered that `/tmp` has global write permissions (`drwxrwxrwt`) and learned to use it safely for temporary workspace creation.
 - **Pattern recognition and persistence:** Challenges can "nest" multiple compression layers, and systematic repetition and inspection (`file → decompress → inspect again`) is often the key to solving complex CTF problems.
+
+---
+
+## References
+- [OverTheWire — Bandit level descriptions and hints](https://overthewire.org/wargames/bandit/bandit13.html)
 
 ---
 

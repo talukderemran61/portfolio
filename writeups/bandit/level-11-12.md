@@ -60,20 +60,23 @@ data.txt: ASCII text
 bandit11@bandit:~$ cat data.txt
 Gur cnffjbeq vf 7k16JArUVv5LxVuJfsSVdbbtaHGlw9D4
 bandit11@bandit:~$ cat data.txt | tr 'A-Za-z' 'N-ZA-Mn-za-m'
-The password is 7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4
+The password is <password>
 bandit11@bandit:~$ tr 'A-Za-z' 'N-ZA-Mn-za-m' <<< "Gur cnffjbeq vf 7k16JArUVv5LxVuJfsSVdbbtaHGlw9D4"
-The password is 7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4
+The password is <password>
 bandit11@bandit:~$
 ```
 
 ---
 
 ## Flags / result
-- password: `7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4`  
+- password: `<password>`  
     Use it to login:
 ```bash
 ssh bandit12@bandit.labs.overthewire.org -p 2220
 ```
+## Password Notice
+For security and in accordance with OverTheWire rules, the actual password for the next level is **not included** in this write‑up.  
+Use the steps shown above to retrieve it in your own environment.
 
 ---
 
@@ -81,6 +84,12 @@ ssh bandit12@bandit.labs.overthewire.org -p 2220
 - `tr <set1> <set2>` each letter in set1 is replaced by the corresponding letter in set2. 
 - `<<<` -> redirects the string to stdin of the command.
 - `|` -> redirects output of a command to another.
+
+---
+
+## References
+- [OverTheWire — Bandit level descriptions and hints](https://overthewire.org/wargames/bandit/bandit12.html)
+
 ---
 
 ## Reading materials

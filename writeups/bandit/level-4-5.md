@@ -65,17 +65,20 @@ bandit4@bandit:~/inhere$ file ./*
 ./-file08: data
 ./-file09: data
 bandit4@bandit:~/inhere$ cat ./-file07
-4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
+<password>
 ```
 
 ---
 
 ## Flags / result
-- password: `4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw`  
+- password: `<password>`  
     Use it to login:
 ```bash
 ssh bandit5@bandit.labs.overthewire.org -p 2220
 ```
+## Password Notice
+For security and in accordance with OverTheWire rules, the actual password for the next level is **not included** in this write‑up.  
+Use the steps shown above to retrieve it in your own environment.
 
 ---
 
@@ -87,7 +90,7 @@ ssh bandit5@bandit.labs.overthewire.org -p 2220
 ---
 
 ## References
-- OverTheWire — Bandit level pages (for challenge descriptions and hints)
+- [OverTheWire — Bandit level descriptions and hints](https://overthewire.org/wargames/bandit/bandit5.html)
 
 ---
 

@@ -53,17 +53,20 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
 bandit2@bandit:~$ ls
 spaces in this filename
 bandit2@bandit:~$ cat ./--spaces\ in\ this\ filename--
-MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
+<password>
 ```
 
 ---
 
 ## Flags / result
-- password: `MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx`  
+- password: `<password>`  
     Use it to login:
 ```bash
 ssh bandit3@bandit.labs.overthewire.org -p 2220
 ```
+## Password Notice
+For security and in accordance with OverTheWire rules, the actual password for the next level is **not included** in this write‑up.  
+Use the steps shown above to retrieve it in your own environment.
 
 ---
 
@@ -74,9 +77,10 @@ ssh bandit3@bandit.labs.overthewire.org -p 2220
 ---
 
 ## References
-- [Advanced Bash-scripting Guide - Special Characters](https://linux.die.net/abs-guide/special-chars.html)
+- [OverTheWire — Bandit level descriptions and hints](https://overthewire.org/wargames/bandit/bandit3.html)
 
 ---
 
 ## Reading materials
+- [Advanced Bash-scripting Guide - Special Characters](https://linux.die.net/abs-guide/special-chars.html)
 - [Google Search for “spaces in filename”](https://www.google.com/search?q=spaces+in+filename)
