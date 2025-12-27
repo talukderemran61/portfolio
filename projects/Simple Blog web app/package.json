@@ -1,0 +1,16 @@
+{
+  "name": "draft",
+  "version": "1.0.0",
+  "description": "practice of the main blog-project",
+  "license": "ISC",
+  "author": "Emran",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^5.2.1"
+  }
+}
