@@ -15,7 +15,6 @@ app.get("/", (req, res) => {
 });
 
 app.post("/create", (req, res) => {
-    console.log(`new post:`, req.body);
     const {title, content} = req.body;
 
     posts.push({
@@ -24,12 +23,10 @@ app.post("/create", (req, res) => {
         content: content
     });
 
-    console.log(`All posts:`, posts);
     res.redirect("/");
 });
 
 app.post("/delete/:id", (req, res) => {
-    console.log(req.params);
     const id = +req.params.id;      // unary operator (+) is shorthand for Number()
                                     // or Number(req.params.id)
     posts = posts.filter(post => post.id !== id);

@@ -21,27 +21,28 @@ Posts are stored in memory and do not persist between sessions.
 
 ## To run locally
 
-1. Clone the repository
+1. **Download the ZIP** from the [GitHub release](https://github.com/talukderemran61/portfolio/releases/tag/v1.0).
+
+2. **Install Node.js** if it’s not already installed.
+
+2. **Unzip the project folder** and open a terminal inside the folder (PowerShell, CMD, Bash, etc.).
+
+2. **Install dependencies:**
     ```bash
-    git clone https://github.com/talukderemran61/portfolio.git
+    npm install
     ```
-2. Install dependencies
-    ```bash
-    npm install express
-    npm install ejs
-    ```
-3. Start the server
+3. **Start the server:**
     ```bash
     node index.js
     ```
-4. Open your browser and visit **`http://localhost:6060`**
+4. **Open your browser** and visit: **`http://localhost:6060`**
 
 ---
 
 ## Screenshots
 
 1. Home page
-![Home Page](screenshots/home.png)
+![Home Page](screenshots/home-page.png)
 
 2. Added new blogs
 ![Added some blogs](screenshots/blogs.png)
