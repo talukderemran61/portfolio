@@ -4,10 +4,10 @@ Full-stack student building web apps and learning web security.
 
 ## Projects
 - **Drum kit** — Small drum kit web app. [`projects/drum_kit/`](/projects/drum_kit/)
-- **Capstone (in progress)** — Full-stack CRUD app (Node/Express/Mongo + React).
+- **Blog Web application** — Full-stack CRUD app (Node, Express, EJS) [`projects/Simple Blog web app/`](/projects/Simple%20Blog%20web%20app/).
 
 ## Writeups
-- [`writeups/bandit/level-0.md`](/writeups/bandit/level-0.md) — OverTheWire Bandit Wargame (Level 0).  
+- [`writeups/bandit/`](/writeups/bandit/) — OverTheWire Bandit Wargame.  
 
 ## Progress
 See weekly log: [`progress.md`](progress.md).
