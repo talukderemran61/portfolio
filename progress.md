@@ -9,9 +9,9 @@ This file tracks weekly progress across:
 ---
 
 ## Current snapshot
-- **Angela Yu:** Section 26- Capstone Project - create a blog web application (in progress)  
-- **TryHackMe:** Cybersecurity 101 → Cryptography module (in progress)  
-- **OverTheWire:** Bandit Wargame → Level 11 -> 12 
+- **Angela Yu's web dev:** Section 26- Capstone Project - create a blog web application (Completed)  
+- **TryHackMe:** Cybersecurity 101 → Web Hacking module (in progress)  
+- **OverTheWire:** Bandit Wargame → Level 17 -> 18 
 
 ---
 
@@ -24,7 +24,7 @@ Each week I add:
 ---
 
 ### Week: 2025-09-29 → 2025-10-05
-- **Angela Yu**
+- **Angela Yu's Web dev**
   - Finished: Section 18 - Advanced JavaScript and DOM Manipulation, and Section 19 — jQuery.
   - Artifacts: `projects/drum_kit/`
   - Next: Section 20- Boss Level Challenge 2 (The Simon Game)
@@ -55,7 +55,7 @@ Each week I add:
 
 ---
 
-### Week: 2025-10-13 → 2025-11-09 (4 week)
+### Week: 2025-10-13 → 2025-11-09 (4 weeks)
 - **Angela Yu's Web dev**
   - Finished: Section 23 — Node.js, npm package manager, section 24: Express.js with Node.js, http request, postman, and section 25: EJS.
   - Next: Section 26- Capstone Project - create a blog web application
@@ -67,3 +67,21 @@ Each week I add:
   - Artifacts: `writeups/bandit/level-1-2.md`, `level-2-3.md`, `level-3-4.md`, `level-4-5.md`, `level-5-6.md`, `level-6-7.md`, `level-7-8.md`, `level-8-9.md`, `level-9-10.md`, `level-10-11.md`.
   - Next: Bandit Level 11 -> 12.
 - **Time spent:** ~50 hours (Spent less time than usual because of university assessment and part-time job)
+
+---
+
+### Week: 2025-11-09 → 2025-12-28 (7 weeks)
+- **Angela Yu's Web dev**
+  - Finished: Section 26- Capstone Project - create a blog web application.
+  - Next: Section 27- Git, Github and Version Control
+- **TryHackMe**
+  - Finished:  
+    Cryptography module- John the ripper: the basics.  
+    Exploitation Basics module- Moniker Link (CVE-2024-21413), Metasploit: Introduction, Metasploit: Exploitation.  
+    Web Hacking module- Web Application Basics, JavaScript Essentials, SQL Fundamentals, Burp Suite: The Basics.  
+  - Next: Offensive Security Tooling module (Hydra, Gobuster, Shells, SQLMap).
+- **OverTheWire - Bandit**
+  - Finished: Wargame bandit level 11 -> 12, level 12 -> 13, level 13 -> 14, level 14 -> 15, level 15 -> 16,, level 16 -> 17.
+  - Artifacts: `writeups/bandit/level-11-12.md`, `level-12-13.md`, `level-13-14.md`, `level-14-15.md`, `level-15-16.md`, `level-16-17.md`.
+  - Next: Bandit Level 17 -> 18.
+- **Time spent:** ~44 hours
