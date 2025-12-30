@@ -2,7 +2,7 @@
 **Challenge name:** Insane Wrist-Straining Decompression  
 **Date:** 10 Nov 2025  
 **Time spent:** ~20 mins  
-**Difficulty:** Beginner / Intermediate  
+**Difficulty:** Medium / Hard  
 
 ---
 

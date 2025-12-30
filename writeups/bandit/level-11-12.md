@@ -2,7 +2,7 @@
 **Challenge name:** rotate letters by 13 positions  
 **Date:** 10 Nov 2025  
 **Time spent:** ~5 mins  
-**Difficulty:** Beginner / Intermediate  
+**Difficulty:** Medium  
 
 ---
 
@@ -59,11 +59,11 @@ bandit11@bandit:~$ file data.txt
 data.txt: ASCII text
 bandit11@bandit:~$ cat data.txt
 Gur cnffjbeq vf 7k16JArUVv5LxVuJfsSVdbbtaHGlw9D4
-bandit11@bandit:~$ cat data.txt | tr 'A-Za-z' 'N-ZA-Mn-za-m'
-The password is <password>
+bandit11@bandit:~$ cat data.txt | tr 'A-Za-z' 'N-ZA-Mn-za-m'           
+The password is <password>                  # piping the output to 'tr'
 bandit11@bandit:~$ tr 'A-Za-z' 'N-ZA-Mn-za-m' <<< "Gur cnffjbeq vf 7k16JArUVv5LxVuJfsSVdbbtaHGlw9D4"
-The password is <password>
-bandit11@bandit:~$
+The password is <password>                  # redirecting the output to 'tr'
+bandit11@bandit:~$                          # note: there could be multiple solution of a single problem
 ```
 
 ---

@@ -2,7 +2,7 @@
 **Challenge name:** read file starts with special character  
 **Date:** 22 Oct 2025  
 **Time spent:** ~5 mins  
-**Difficulty:** Beginner  
+**Difficulty:** Easy  
 
 ---
 
@@ -33,7 +33,9 @@ The password for the next level is stored in a file called - located in the home
     To circumbent this problem one must use the relative or absolute file name to access the file.   
     Use:
     ```bash
-    cat ./- or cat ~/-
+    cat ./- 
+    or 
+    cat ~/-
     ```
     Copy the output and use it to SSH to `bandit2`
 

@@ -2,7 +2,7 @@
 **Challenge name:** submit current password over TLS to localhost:30001  
 **Date:** 11 Nov 2025  
 **Time spent:** ~10 mins  
-**Difficulty:** Beginner / Intermediate   
+**Difficulty:** Easy / Medium   
 
 ---
 
@@ -47,7 +47,7 @@ The password for the next level can be retrieved by submitting the password of t
     `ncat --ssl` negotiates TLS and forwards stdin, printing the service response.
     The service confirms and returns the next-level password.
     
-4.  **Copy the password** and use it to SSH into the next level (`bandit16`).
+5.  **Copy the password** and use it to SSH into the next level (`bandit16`).
 
 ---
 
@@ -63,9 +63,11 @@ CONNECTED(00000003)
 ... (certificate / handshake info shown) ...
 8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo
 Correct!
-<Password>
+<Password>          # prints the password for next level
 
 closed
+
+Or
 bandit15@bandit:~$ man ncat
 bandit15@bandit:~$ ncat localhost 30001
 8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo
@@ -74,7 +76,7 @@ Ncat: Connection reset by peer.
 bandit15@bandit:~$ ncat --ssl localhost 30001
 8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo
 Correct!
-<Password>
+<Password>          # prints the password for next level
 ```
 
 ---

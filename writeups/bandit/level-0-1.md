@@ -2,7 +2,7 @@
 **Challenge name:** navigate and read file  
 **Date:** 2025-10-09  
 **Time spent:** ~5 minutes  
-**Difficulty:** Beginner  
+**Difficulty:** Easy  
 
 ---
 
@@ -55,7 +55,7 @@ bandit0
 bandit0@bandit:~$ ls
 readme
 bandit0@bandit:~$ cat readme
-<password>
+<password>     # next level password
 ```
 
 ---

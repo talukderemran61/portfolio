@@ -2,7 +2,7 @@
 **Challenge name:** hidden file in `inhere` (`...Hiding-From-You`)  
 **Date:** 23 Oct 2025  
 **Time spent:** ~5 mins  
-**Difficulty:** Beginner  
+**Difficulty:** Easy  
 
 ---
 

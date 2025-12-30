@@ -2,7 +2,7 @@
 **Challenge name:** find human-readable file of exact size  
 **Date:** 25 Oct 2025  
 **Time spent:** ~5-10 mins  
-**Difficulty:** Beginner  
+**Difficulty:** Easy  
 
 ---
 

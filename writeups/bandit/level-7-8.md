@@ -2,7 +2,7 @@
 **Challenge name:** find password next to a keyword  
 **Date:** 28 Oct 2025  
 **Time spent:** ~3 mins  
-**Difficulty:** Beginner  
+**Difficulty:** Easy  
 
 ---
 

@@ -2,7 +2,7 @@
 **Challenge name:** spaces in this filename  
 **Date:** 22 Oct 2025  
 **Time spent:** ~5 mins  
-**Difficulty:** Beginner  
+**Difficulty:** Easy  
 
 ---
 

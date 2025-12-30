@@ -2,7 +2,7 @@
 **Challenge name:** human-readable file  
 **Date:** 24 Oct 2025  
 **Time spent:** ~5 mins  
-**Difficulty:** Beginner  
+**Difficulty:** Easy  
 
 ---
 

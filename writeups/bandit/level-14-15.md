@@ -2,7 +2,7 @@
 **Challenge name:** SSH key to next level  
 **Date:** 11 Nov 2025  
 **Time spent:** ~5 mins  
-**Difficulty:** Beginner  
+**Difficulty:** Easy  
 
 ---
 
@@ -50,6 +50,12 @@ bandit14@bandit:~$ cat /etc/bandit_pass/bandit14
 MU4VWeTyJk8ROof1qqmcBPaLh7lDCPvS
 
 bandit14@bandit:~$ cat /etc/bandit_pass/bandit14 | nc localhost 30000
+Correct!
+<Password>
+
+Or
+bandit14@bandit:~$ nc localhost 30000
+MU4VWeTyJk8ROof1qqmcBPaLh7lDCPvS            # paste the password + press Enter
 Correct!
 <Password>
 

@@ -2,7 +2,7 @@
 **Challenge name:** find file by owner/group and size  
 **Date:** 27 Oct 2025  
 **Time spent:** ~5-15 mins  
-**Difficulty:** Beginner / Intermediate  
+**Difficulty:** Easy / Medium  
 
 ---
 
@@ -32,7 +32,7 @@ The password for the next level is stored somewhere on the server and has all of
     # search the whole filesystem (may produce permission errors; redirect stderr)
     find / -user bandit7 -group bandit6 -size 33c 2>/dev/null
     ```
-    This tells `find` to look for regular files owned by `bandit7`, in group `bandit6`, and exactly 33 bytes long (`c` = bytes).
+    This tells `find` to look for regular files owned by `bandit7`, has access to group `bandit6`, and exactly 33 bytes long (`c` = bytes).
     > this solution can also be achieved using `find / -user bandit7 -group bandit6 -size 33c 2>&1 | grep -v "Permission denied"`, where `stderr` is redirected to `stdout`, because `stderr` cannot be piped to `grep` as it goes straight to terminal. Then filtered out everything except the lines contain "Permission denied".
 
 3. **Verify file permissions and read it**. Once you have the path, check it and `cat` it:

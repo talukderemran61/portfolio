@@ -2,7 +2,7 @@
 **Challenge name:** submit current password over TLS to localhost port 31000-32000  
 **Date:** 11 Nov 2025  
 **Time spent:** ~10 mins  
-**Difficulty:** Beginner / Intermediate   
+**Difficulty:** Medium   
 
 ---
 
@@ -45,7 +45,7 @@ The credentials for the next level can be retrieved by submitting the password o
     `ncat --ssl` negotiates TLS. If service listening and speak TLS/SSL then will send a response. Response might give the credentials for next level.
     > note: as mention in description "There is only 1 server that will give the next credentials, the others will simply send back to you whatever you send to it." Even if the server speaks SSL/TLS it might just send back whatever you send.
     
-4.  **Copy the SSH PRIVATE KEY** use it to SSH to next level `bandit17`.
+5.  **Copy the SSH PRIVATE KEY** use it to SSH to next level `bandit17`.
     > note: change the private key file permissions to `600` before using it to SSH login.
 
 ---
@@ -79,8 +79,8 @@ Ncat: Input/output error.
 bandit16@bandit:~$ ncat --ssl localhost 31790
 kSkvUpMQ7lBYyCM4GBPvCvT1BfWRy0Dx
 Correct!
------BEGIN RSA PRIVATE KEY-----
-<KEY>
+-----BEGIN RSA PRIVATE KEY----- 
+<KEY>                           # prints the SSH key for login to next level using SSH
 -----END RSA PRIVATE KEY-----
 
 ^C
@@ -102,7 +102,7 @@ Use the steps shown above to retrieve it in your own environment.
   
 Use it to login:
 ```bash
-ssh -i <private_key> bandit17@bandit.labs.overthewire.org -p 2220
+ssh -i <private_key_filename> bandit17@bandit.labs.overthewire.org -p 2220
 # note: change the <private_key> with the filename containing private key for bandit17
 ```
 > Read [level-13-14.md](level-13-14.md) writeup to learn how to use private key for login

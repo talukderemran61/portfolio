@@ -2,7 +2,7 @@
 **Challenge name:** SSH key to next level  
 **Date:** 10 Nov 2025  
 **Time spent:** ~5 mins  
-**Difficulty:** Beginner  
+**Difficulty:** Medium  
 
 ---
 
@@ -25,6 +25,7 @@ The password for the next level is stored in **/etc/bandit_pass/bandit14 and can
 2.  **Confirm the key file exists** in your home directory:
     ```bash
     ls
+    # output: sshkey.private
     ```
 
 3.  **Use the ssh private key** supplied to login to `bandit14`:
@@ -58,8 +59,8 @@ The password for the next level is stored in **/etc/bandit_pass/bandit14 and can
     ```
     We have **read** permission. So, we can read the file and copy and paste it to the new file created in our machine for the private key. 
     ```bash
-    exit
-    vim bandit14_sshkey.private
+    exit            # logout from the current level
+    vim bandit14_sshkey.private     # create a new file for ssh key in your local machine
     ```
     Use `exit` to exit from the bandit server. Create a file and store the private key.
 
@@ -150,6 +151,7 @@ It is required that your private key files are NOT accessible by others.
 This private key will be ignored.
 Load key "bandit14_sshkey.private": bad permissions
 bandit14@bandit.labs.overthewire.org's password:            # ignored the private key and asking for password instead
+                                                            # ssh client blocked because the file was too open and risky to use
 
 [1]+  Stopped                 ssh -i bandit14_sshkey.private bandit14@bandit.labs.overthewire.org -p 2220
 

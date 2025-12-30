@@ -2,7 +2,7 @@
 **Challenge name:** human-readable string preceded by =  
 **Date:** 09 Nov 2025  
 **Time spent:** ~5 mins  
-**Difficulty:** Beginner  
+**Difficulty:** Easy  
 
 ---
 

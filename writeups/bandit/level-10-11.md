@@ -2,7 +2,7 @@
 **Challenge name:** base64 encoded data in data.txt  
 **Date:** 09 Nov 2025  
 **Time spent:** ~5 mins  
-**Difficulty:** Beginner  
+**Difficulty:** Easy  
 
 ---
 
