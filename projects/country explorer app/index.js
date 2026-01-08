@@ -9,10 +9,6 @@ const __dirname = path.dirname(__filename);
 
 const app = express();
 
-// Set view engine to EJS
-// app.set('view engine', 'ejs');
-// app.set('views', path.join(__dirname, 'views'));
-
 // Serve static files from /public
 app.use(express.static(path.join(__dirname, 'public')));
 
@@ -25,7 +21,7 @@ app.get('/', (req, res) => {
     res.render('index.ejs');
 });
 
-// Country route placeholder
+// Country route
 app.get('/country', async (req, res) => {
     const name = req.query.name.toLowerCase();
 
@@ -37,19 +33,8 @@ app.get('/country', async (req, res) => {
         console.log(response.data[0]);  // debug code
         const country = response.data[0];
         
-        console.log("fetch main country success!"); // debug code
-        let neighbors = [];
-        // fetch neighboring countries
-        if ( country.borders && country.borders.length > 0 ) {
-            const codes = country.borders.join(",");
-            console.log(codes);     // debug code
-            const borderResponse = await axios.get(`${API_URL}/alpha?codes=${codes}&fields=name,flags`);
-
-            console.log(borderResponse.data);   // debug code
-            neighbors = borderResponse.data;
-        };
         console.log("problem in country.ejs");
-        res.render('country.ejs', { country, neighbors });
+        res.render('country.ejs', { country });
     } catch (error) {
         console.log("error: country not found");
         res.status(404).render("error.ejs", {
@@ -60,26 +45,13 @@ app.get('/country', async (req, res) => {
 });
 
 // Region route placeholder
-app.get('/region', async (req, res) => {
-    try {
-        const { region } = req.query;
-        console.log(region);    // debug code
-        const response = await axios.get(`${API_URL}/region/${region}?fields=name,capital,population,flags`);
-        console.log(response.data[0]);  // debug code
-        const countries = response.data;
-        res.render('region.ejs', { region, countries });
-    } catch (error) {
-        console.log("error: region not found");
-        res.status(404).render("error.ejs", {
-            message: "Unable to fetch countries for this region.",
-        });
-        // res.status(404).send("country not available");
-    }
+app.get('/region/', (req, res) => {
+  res.send(`Region page coming soon`);
 });
 
 // Catch-all route for errors
 app.get('/*splat', (req, res) => {
-    res.status(404).render('error.ejs', { message: '404 Page not found' });  
+    res.send('404 Page not found');  
 });
 
 // Start server

@@ -1,44 +1,26 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>REST Countries Explorer</title>
-  <link rel="stylesheet" href="/css/styles.css">
-</head>
-<body>
+<%- include("partials/header.ejs") %>
 
-  <!-- Header -->
-  <header class="header">
-    <h1>🌍 REST Countries Explorer</h1>
-    <p>Discover countries, capitals, flags, and neighboring nations.</p>
-  </header>
+<main>
+  <section>
+    <form action="/country" method="get">
+      <input type="text" name="name" placeholder="Enter country name" required>
+      <button type="submit">Search</button>
+    </form>
 
-  <!-- Main content -->
-  <main>
-    <section class="search-section">
-      <form action="/country" method="GET">
-        <input type="text" name="name" placeholder="Search for a country..." required>
-        <button type="submit">Search</button>
-      </form>
+    <h3>Or filter by region:</h3>
+    <form action="/region" method="get">
+      <select name="region">
+        <option value="Africa">Africa</option>
+        <option value="Americas">Americas</option>
+        <option value="Asia">Asia</option>
+        <option value="Europe">Europe</option>
+        <option value="Oceania">Oceania</option>
+        <option value="Antarctica">Antarctica</option>
+      </select>
+      <button type="submit">Filter</button>
+    </form>
+  </section>
+</main>
 
-      <form action="/region" method="GET">
-        <select name="name" required>
-          <option value="">Select Region</option>
-          <option value="Africa">Africa</option>
-          <option value="Americas">Americas</option>
-          <option value="Asia">Asia</option>
-          <option value="Europe">Europe</option>
-          <option value="Oceania">Oceania</option>
-        </select>
-        <button type="submit">Go</button>
-      </form>
-    </section>
-  </main>
 
-  <!-- Footer -->
-  <footer class="footer">
-    <p>Built with Node.js, Express & REST Countries API | © 2026 Emran Talukder</p>
-  </footer>
-
-</body>
-</html>
+<%- include("partials/footer.ejs") %>
