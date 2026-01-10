@@ -24,10 +24,9 @@ app.get('/', (req, res) => {
 // Country route
 app.get('/country', async (req, res) => {
     const name = req.query.name.toLowerCase();
+    console.log(name);  // debug code
 
     try {
-        console.log(name);  // debug code
-
         // fetch main country data
         const response = await axios.get(`${API_URL}/name/${name}?fullText=true&fields=name,capital,population,region,subregion,languages,currencies,flags,borders,maps`);
         console.log(response.data[0]);  // debug code
@@ -44,9 +43,23 @@ app.get('/country', async (req, res) => {
     }
 });
 
-// Region route placeholder
-app.get('/region/', (req, res) => {
-  res.send(`Region page coming soon`);
+// Region route
+app.get('/region', async (req, res) => {
+    const { region } = req.query;
+    console.log(region);    // debug code
+    
+    try {
+        const response = await axios.get(`${API_URL}/region/${region}?fields=name,capital,population,flags`);
+        console.log(response.data[0]);  // debug code
+        const countries = response.data;
+        res.render('region.ejs', { region, countries });
+    } catch (error) {
+        console.log("error: region not found");
+        res.status(404).render("error.ejs", {
+            message: "Unable to fetch countries for this region.",
+        });
+        // res.status(404).send("country not available");
+    }
 });
 
 // Catch-all route for errors

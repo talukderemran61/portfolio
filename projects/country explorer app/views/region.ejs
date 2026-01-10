@@ -2,7 +2,24 @@
 
 <main>
   <section>
-    
+    <h1>Countries in <%= region %></h1>
+
+    <div class="country-grid">
+      <% countries.forEach(country => { %>
+        <a 
+          class="country-card-small"
+          href="/country?name=<%= country.name.common %>"
+        >
+          <img 
+            src="<%= country.flags.png %>" 
+            alt="Flag of <%= country.name.common %>"
+          />
+          <h3><%= country.name.common %></h3>
+          <p><strong>Capital:</strong> <%= country.capital ? country.capital[0] : "N/A" %></p>
+          <p><strong>Population:</strong> <%= country.population.toLocaleString() %></p>
+        </a>
+      <% }) %>
+    </div>
   </section>
 </main>
 

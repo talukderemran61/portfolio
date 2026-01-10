@@ -8,7 +8,8 @@ This project is part of **Angela Yu's Web Development Bootcamp**, where the goal
 ##  Demo
 When you open the website, you can:
 - **Click** on the drum buttons to play different drum sounds.  
-- **Press keys (w, a, s, d, j, k, l)** on your keyboard to play corresponding drum sounds.  
+- **Press keys (w, a, s, d, j, k, l)** on your keyboard to play corresponding drum sounds.
+- *[Live link](https://talukderemran61.github.io/acoustic-drum-kit/)*
 
 ---
 
@@ -16,16 +17,6 @@ When you open the website, you can:
 - **HTML5** – structure of the webpage  
 - **CSS3** – styling of the drum kit  
 - **JavaScript (Vanilla JS)** – event listeners, sound playback, and animations  
-
----
-
-##  Project Structure
-    drum-kit/
-    │── index.html # Main HTML file
-    │── styles.css # Styling
-    │── index.js # JavaScript logic
-    │── images/ # Drum image files
-    └── sounds/ # Drum sound files (kick, snare, tom, etc.)
 
 ---
 
