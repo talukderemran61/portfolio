@@ -29,6 +29,20 @@
             .map(c => `${c.name} (${c.symbol || ""})`)
             .join(", ") %>
         </p>
+
+        <h2>Neighboring Countries</h2>
+        <div class="neighbors">
+            <% if (neighbors.length === 0) { %>
+                <p>No neighboring countries.</p>
+            <% } else { %>
+                <% neighbors.forEach(n => { %>
+                    <a class="neighbor" href="/country?name=<%= n.name.common %>">
+                        <img src="<%= n.flags.svg %>" width="30">
+                        <%= n.name.common %>
+                    </a>
+                <% }) %>
+            <% } %>
+        </div>
     </div>
   </section>
 

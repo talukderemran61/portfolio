@@ -1,4 +1,3 @@
-import { error } from 'console';
 import express from 'express';
 import path from 'path';
 import { fileURLToPath } from 'url';
@@ -31,15 +30,23 @@ app.get('/country', async (req, res) => {
         const response = await axios.get(`${API_URL}/name/${name}?fullText=true&fields=name,capital,population,region,subregion,languages,currencies,flags,borders,maps`);
         console.log(response.data[0]);  // debug code
         const country = response.data[0];
+
+        let neighbors = [];
+        // Fetch neighboring countries (if any)
+        if (country.borders && country.borders.length > 0) {
+            const codes = country.borders.join(",");
+            const borderResponse = await axios.get(
+                `https://restcountries.com/v3.1/alpha?codes=${codes}&fields=name,flags`
+            );
+        neighbors = borderResponse.data;
+        }
         
-        console.log("problem in country.ejs");
-        res.render('country.ejs', { country });
+        res.render('country.ejs', { country, neighbors });
     } catch (error) {
         console.log("error: country not found");
         res.status(404).render("error.ejs", {
             message: "Country not found. Please check the spelling and try again.",
         });
-        // res.status(404).send("country not available");
     }
 });
 
@@ -58,7 +65,6 @@ app.get('/region', async (req, res) => {
         res.status(404).render("error.ejs", {
             message: "Unable to fetch countries for this region.",
         });
-        // res.status(404).send("country not available");
     }
 });
 
