@@ -85,3 +85,24 @@ Each week I add:
   - Artifacts: `writeups/bandit/level-11-12.md`, `level-12-13.md`, `level-13-14.md`, `level-14-15.md`, `level-15-16.md`, `level-16-17.md`.
   - Next: Bandit Level 17 -> 18.
 - **Time spent:** ~44 hours
+
+---
+
+### Week: 2025-12-29 → 2026-01-11 (2 weeks)
+- **Angela Yu's Web dev**
+  - Finished: 
+    Section 27- Git, Github and Version Control
+    Section 28- Application Programming Interfaces (APIs)
+    Section 29- Capstone Project: Use a Public API (in Progress)
+  - Next: Complete current project
+- **TryHackMe**
+  - Finished:  
+    Offensive Security Tooling module (Hydra, Gobuster, Shells, SQLMap).  
+    How The Web Works module- DNS in Detail, HTTP in Detail, How Websites Work, and Putting it all together rooms.  
+    Introduction To Web Hacking module- Walking An Application, and Content Discovery rooms.  
+  - Next: Introduction To Web Hacking module (IDOR, SSRF, XSS, SQL injection).
+- **OverTheWire - Bandit**
+  - Finished: Wargame bandit level 17 -> 18.
+  - Artifacts: `writeups/bandit/level-17-18.md`.
+  - Next: Bandit Level 18 -> 19.
+- **Time spent:** ~37 hours
