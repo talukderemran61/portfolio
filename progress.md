@@ -106,3 +106,15 @@ Each week I add:
   - Artifacts: `writeups/bandit/level-17-18.md`.
   - Next: Bandit Level 18 -> 19.
 - **Time spent:** ~37 hours
+
+---
+
+### Week: 2026-01-12 → 2026-01-18
+- **Angela Yu's Web dev**
+  - Finished: 
+    Section 29- Capstone Project: Use a Public API (Completed)
+  - Next: Section 30- Build You Own API
+- **TryHackMe**
+  - Finished: Introduction To Web Hacking module- Subdomain Enumeration, Athenticatiion Bypass, IDOR, and File Inclusion room
+  - Next: Introduction To Web Hacking module (SSRF, XSS, SQL injection)
+- **Time spent:** ~28 hours
