@@ -1,5 +1,3 @@
-console.log("Test test con");
-
 const input = document.getElementById("search-field");
 const countryContainer = document.getElementById("country-container");
 const select = document.querySelector('select[name="region"]');
