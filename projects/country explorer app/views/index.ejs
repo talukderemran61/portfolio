@@ -1,24 +1,41 @@
 <%- include("partials/header.ejs") %>
 
 <main>
-  <section>
-    <form action="/country" method="get">
-      <input type="text" name="name" placeholder="Enter country name" required>
-      <button type="submit">Search</button>
-    </form>
+  <section class="main-container">
+    <div class="search-section">
+      <form action="/" method="GET">
+        <input id="search-field" type="text" name="name" placeholder="Search for a country..." autocomplete="off" required>
+        <button type="submit">Search</button>
+      </form>
 
-    <h3>Or filter by region:</h3>
-    <form action="/region" method="get">
-      <select name="region">
-        <option value="Africa">Africa</option>
-        <option value="Americas">Americas</option>
-        <option value="Asia">Asia</option>
-        <option value="Europe">Europe</option>
-        <option value="Oceania">Oceania</option>
-        <option value="Antarctica">Antarctica</option>
-      </select>
-      <button type="submit">Filter</button>
-    </form>
+      <form action="/" method="GET">
+        <select name="region" required>
+          <option value="">Select Region</option>
+          <option value="Africa">Africa</option>
+          <option value="Americas">Americas</option>
+          <option value="Asia">Asia</option>
+          <option value="Europe">Europe</option>
+          <option value="Oceania">Oceania</option>
+        </select>
+        <button class="filter-btn" type="submit"><i class="fa-solid fa-filter"></i></button>
+      </form>
+    </div>
+
+    <div>
+      <div class="country-grid" id="country-container">
+        <% allCountries.forEach(country => { %>
+          <a class="country-card-small" href="/country?name=<%= country.name.common %>">
+            <img 
+              src="<%= country.flags.svg %>" 
+              alt="<%= country.flags.alt %>"
+            />
+            <h3><%= country.name.common %></h3>
+            <p><strong>Capital:</strong> <%= country.capital ? country.capital[0] : "N/A" %></p>
+            <p><strong>Population:</strong> <%= country.population.toLocaleString() %></p>
+          </a>
+        <% }) %>
+      </div>
+    </div>
   </section>
 </main>
 

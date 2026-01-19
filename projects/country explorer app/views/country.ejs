@@ -1,18 +1,23 @@
 <%- include("partials/header.ejs") %>
 
 <main>
+    <div class="back-button-div">
+      <a href="/" class="back-button">
+        <i class="fa-solid fa-angle-left"></i> Back
+      </a>
+    </div>
+    <section class="main-container country-main-container">
 
-<a href="/">← Back to Home</a>
-
-  <section>
-    <div class="country-card">
+      <section class="details-flag-container">
         <img 
-        src="<%= country.flags.png %>" 
-        alt="Flag of <%= country.name.common %>" 
-        class="flag"
+          src="<%= country.flags.svg %>" 
+          alt="<%= country.flags.alt %>" 
+          class="details-flag"
         />
+      </section>
+      <section class="country-info">
 
-        <h1><%= country.name.common %></h1>
+        <h1 class="country-name"><%= country.name.common %></h1>
         <p><strong>Official Name:</strong> <%= country.name.official %></p>
 
         <p><strong>Capital:</strong> <%= country.capital ? country.capital[0] : "N/A" %></p>
@@ -21,31 +26,31 @@
         <p><strong>Population:</strong> <%= country.population.toLocaleString() %></p>
 
         <p><strong>Languages:</strong>
-        <%= Object.values(country.languages || {}).join(", ") %>
+          <%= Object.values(country.languages || {}).join(", ") %>
         </p>
 
         <p><strong>Currency:</strong>
-        <%= Object.values(country.currencies || {})
+          <%= Object.values(country.currencies || {})
             .map(c => `${c.name} (${c.symbol || ""})`)
             .join(", ") %>
         </p>
 
-        <h2>Neighboring Countries</h2>
+        <h2 class="neighbors-h2">Neighboring Countries</h2>
         <div class="neighbors">
             <% if (neighbors.length === 0) { %>
                 <p>No neighboring countries.</p>
             <% } else { %>
                 <% neighbors.forEach(n => { %>
-                    <a class="neighbor" href="/country?name=<%= n.name.common %>">
+                    <a class="neighbor" href="/country?name=<%= n.name %>">
                         <img src="<%= n.flags.svg %>" width="30">
-                        <%= n.name.common %>
+                        <%= n.name %>
                     </a>
                 <% }) %>
             <% } %>
         </div>
-    </div>
-  </section>
 
+      </section>
+    </section>
 </main>
 
 
